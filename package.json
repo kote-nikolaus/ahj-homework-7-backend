@@ -6,9 +6,8 @@
   "scripts": {
     "build": "npm run build",
     "install": "npm install",    
-    "prestart": "npm install",
-    "start": "server.js",
-    "watch": "-w server.js"
+    "start": "node server.js",
+    "watch": "node -w server.js"
   },
   "author": "coursar",
   "license": "ISC",
