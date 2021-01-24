@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd client && npm run build",
-    "install": "cd client && npm install",    
+    "build": "npm run build",
+    "install": "npm install",    
     "prestart": "npm install",
     "start": "forever server.js",
     "watch": "forever -w server.js"
