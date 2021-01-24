@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "build": "npm run build",
-    "install": "npm install",    
+  "scripts": {   
     "start": "node server.js",
     "watch": "node -w server.js"
   },
